@@ -1,0 +1,21 @@
+
+@media screen and (min-width: 600px) {
+    body {
+        font-size: 1.2em; 
+    }
+
+    header {
+        grid-template-columns: 1fr 2fr; /
+    }
+
+    nav {
+        font-size: 1.2em; 
+    }
+    nav ul {
+        display: flex;
+        justify-content: space-between;
+    }
+    nav ul li {
+		flex: 1 1 100%;
+	}
+}
