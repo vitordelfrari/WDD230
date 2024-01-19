@@ -1,11 +1,4 @@
 @media screen and (min-width: 600px) {
-    body {
-        font-size: 1.2em; 
-    }
-
-    nav {
-        font-size: 1.2em; 
-    }
     nav ul {
         display: flex;
         justify-content: space-between;
