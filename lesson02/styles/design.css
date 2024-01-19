@@ -20,8 +20,8 @@ h1 {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
-    grid-gap: 20px; /* Adjust the gap between columns */
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 20px;
 }
 
 h2 {

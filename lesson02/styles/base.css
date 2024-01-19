@@ -55,7 +55,6 @@ img {
     max-width: 200px;
 }
 
-/* Responsive Grid Layout */
 @media (min-width: 600px) {
     nav {
         display: flex;
