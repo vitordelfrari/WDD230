@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Cantarell&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: "Cantarell", Arial, Helvetica, sans-serif;
+    color: black;
+    max-width: 800px;
+    margin: auto;
+}
+
+header {
+    display: grid;
+    margin: auto;
+    max-width: 800px;
+    grid-template-columns: 1fr 1fr;
+    background-color: #004e98;
+}
+
+img {
+    max-width: 200px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-family: "Trebuchet MS", "Lucida Sans", Arial, sans-serif;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 20px;
+    font-family: "Cantarell", Arial, Helvetica, sans-serif;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}
+
+nav a {
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    background-color: #004e98;
+    color: white;
+    border-top: #002b53 solid 2px;
+}
+
+nav a:hover {
+    background-color: white;
+    color: #004e98;
+}
+
+.card {
+    background-color: #f9f9f9;
+    border: 2px solid #004e98;
+    border-radius: 10px;
+    padding: 10px; 
+    margin-bottom: 10px;
+}
+
+.class {
+    background-color: #ebebeb;
+    border-radius: 10px;
+    border: 1px solid #004e98; 
+    text-align: center;
+    padding: 10px; 
+}
+
+ul {
+    list-style-type: none;
+}
+
+h3 {
+    color: white;
+    background-color: #004e98;
+    padding: 10px;
+    text-align: center;
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+    padding: 1rem;
+    color: #004e98;
+}
+
+hr.solid {
+    border-top: 3px solid #bbb;
+}
+
+footer {
+    margin: auto;
+    background-color: #c0c0c0;
+    max-width: 800px;
+    text-align: center;
+    padding: 10px;
+}
