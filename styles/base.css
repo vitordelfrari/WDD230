@@ -17,7 +17,7 @@ header {
     display: grid;
     margin: auto;
     max-width: 800px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     background-color: #004e98;
 }
 
