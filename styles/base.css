@@ -114,6 +114,7 @@ hr.solid {
     margin: 0 auto;
     border: 0;
     max-width: 100%;
+    border-radius: 10px;
 }
 
 footer {
@@ -149,7 +150,6 @@ footer {
     }
     
     .stuff {
-        margin: 0.5m;
         border: 1px solid rgba(0, 0, 0, 0.1);
         background-color: #bed;
         max-width: 580px;
