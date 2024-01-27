@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Ubuntu&display=swap');
+
+body {
+    font-family: 'Noto Serif', serif;
+    color: #080808;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    text-align: left;
+    background-image: linear-gradient(to right, #5FB1E1 50%,  #085CAB);
+}
+
+h1, h2 {
+    font-family: 'Noto Serif', serif;
+    font-weight: 700; 
+    color: black; /* Changed from BLACK to lowercase black */
+}
+
+h2 {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: #5FB1E1;
+}
+
+/* Added separate styling for paragraphs and ordered lists */
+p, ol {
+    font-family: 'Ubuntu', sans-serif; /* Simple font for paragraphs and ordered lists */
+    font-size: 18px;
+    color: #080808; /* Matched the color to body text */
+}
+
+section {
+    padding: 20px;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+  }
+  .colors th {
+    background-color: #999;
+  }
+  .colors td{
+    width: 25%;
+    height: 3em;
+  }
+
+  .primary {
+    background-color: var(--primary-color);
+  }
+  .secondary {
+    background-color: var(--secondary-color);
+  }
+  .accent1 {
+    background-color: var(--accent1-color);
+  }
+  .accent2{
+    background-color: var(--accent2-color);
+  }
+
+  :root {
+    --primary-color: #085CAB;
+    --secondary-color: #5FB1E1; 
+    --accent1-color: black;
+    --accent2-color: #04F17E;
+  }
