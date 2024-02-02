@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Ubuntu&display=swap');
 
 * {
@@ -15,10 +15,17 @@ body {
 }
 
 h1 {
-  font-family: 'Noto Serif', serif;
-  color: white;
+  font-family: 'Spectral', serif;
+  color: #CDAC60;
   text-align: left;
 }
+
+h2 {
+  font-family: 'Spectral', serif;
+  color: #2A2F41;
+  text-align: left;
+}
+
 
 header {
   display: flex;
@@ -26,7 +33,7 @@ header {
   /* Align items on both ends */
   align-items: center;
   /* Vertically center items */
-  background-image: linear-gradient(to right, #5FB1E1 50%, #085CAB);
+  background-image: linear-gradient(to right, #181C25 50px, #2A2F41);
   padding: 1rem;
   /* Add padding for spacing */
 }
@@ -40,7 +47,7 @@ ul {
 }
 
 nav {
-  font-family: 'Noto Serif', serif;
+  font-family: 'Spectral', serif;
   text-align: center;
 }
 
@@ -49,12 +56,12 @@ nav a {
   padding: 1rem;
   text-decoration: none;
   font-weight: bold;
-  color: white;
+  color: #F2F5FF;
 }
 
 nav a:hover {
-  background-color: white;
-  color: #004e98;
+  background-color: #F2F5FF;
+  color: #CDAC60;
 }
 
 /* Hamburger Menu */
@@ -70,7 +77,7 @@ nav a:hover {
 }
 
 .social-icons a {
-  color: white;
+  color: #F2F5FF;
   margin-right: 10px;
 }
 
@@ -80,7 +87,7 @@ nav a:hover {
   background-size: cover;
   text-align: center;
   padding: 50px 0;
-  color: white;
+  color: #F2F5FF;
 }
 
 .hero h2 {
@@ -91,8 +98,11 @@ nav a:hover {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: white;
-  color: #085CAB;
+  font-family: 'Spectral', serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: #2A2F41;
+  color: #CDAC60;
   text-decoration: none;
 }
 
@@ -116,8 +126,8 @@ nav a:hover {
 
 /* Estilize a seção de rodapé */
 footer {
-  background-color: #085CAB;
-  color: white;
+  background-color: #2A2F41;
+  color: #F2F5FF;
   padding: 20px;
   text-align: center;
 }
