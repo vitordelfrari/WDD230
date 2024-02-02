@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+  color: #080808;
+  margin: auto;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Noto Serif', serif;
+  color: white;
+  text-align: left;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  /* Align items on both ends */
+  align-items: center;
+  /* Vertically center items */
+  background-image: linear-gradient(to right, #5FB1E1 50%, #085CAB);
+  padding: 1rem;
+  /* Add padding for spacing */
+}
+
+/* Navigation */
+ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  /* Vertically center items */
+}
+
+nav {
+  font-family: 'Noto Serif', serif;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #004e98;
+}
+
+/* Hamburger Menu */
+.hamburger-menu {
+  display: none;
+  /* Hide by default */
+}
+
+/* Adicione estilos para os ícones das redes sociais */
+.social-icons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 10px;
+}
+
+/* Estilize a seção do banner principal */
+.hero {
+  background-image: url('path/to/your/image.jpg');
+  background-size: cover;
+  text-align: center;
+  padding: 50px 0;
+  color: white;
+}
+
+.hero h2 {
+  font-size: 2em;
+}
+
+.hero .cta {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: white;
+  color: #085CAB;
+  text-decoration: none;
+}
+
+/* Estilize a seção de eventos atuais */
+.current-events {
+  background-color: #F2F2F2;
+  padding: 20px;
+}
+
+/* Estilize a seção do clima */
+.weather {
+  background-color: #F2F2F2;
+  padding: 20px;
+}
+
+/* Estilize a seção de destaques */
+.spotlights {
+  background-color: #F2F2F2;
+  padding: 20px;
+}
+
+/* Estilize a seção de rodapé */
+footer {
+  background-color: #085CAB;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+footer .contact-info, .development-info {
+  margin-bottom: 10px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: none;
+    /* Hide main nav on smaller screens */
+  }
+
+  .hamburger-menu {
+    display: block;
+    /* Show hamburger menu button */
+  }
+}
