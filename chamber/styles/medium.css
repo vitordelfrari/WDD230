@@ -1,0 +1,35 @@
+@media screen and (max-width: 600px) {
+    /* Adjust the font size for larger screens */
+    body {
+      font-size: 1.2em;
+    }
+  
+    /* Increase the padding for the header */
+    header {
+      padding: 2rem;
+    }
+  
+    /* Display the navigation menu in a row */
+    nav ul {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    /* Adjust the size of the hero section */
+    .hero {
+      padding: 100px 0;
+    }
+  
+    /* Adjust the padding for the sections */
+    .current-events,
+    .weather,
+    .spotlights {
+      padding: 40px;
+    }
+  
+    /* Adjust the padding for the footer */
+    footer {
+      padding: 40px;
+    }
+  }
+  

@@ -14,38 +14,15 @@ body {
   padding: 0;
 }
 
-h1 {
-  font-family: 'Spectral', serif;
-  color: #CDAC60;
-  text-align: left;
-}
-
-h2 {
-  font-family: 'Spectral', serif;
-  color: #2A2F41;
-  text-align: left;
-}
-
-
 header {
   display: flex;
   justify-content: space-between;
-  /* Align items on both ends */
   align-items: center;
-  /* Vertically center items */
   background-image: linear-gradient(to right, #181C25 50px, #2A2F41);
   padding: 1rem;
-  /* Add padding for spacing */
 }
 
-/* Navigation */
-ul {
-  list-style-type: none;
-  display: flex;
-  align-items: center;
-  /* Vertically center items */
-}
-
+/* Navigation styles */
 nav {
   font-family: 'Spectral', serif;
   text-align: center;
@@ -64,13 +41,7 @@ nav a:hover {
   color: #CDAC60;
 }
 
-/* Hamburger Menu */
-.hamburger-menu {
-  display: none;
-  /* Hide by default */
-}
-
-/* Adicione estilos para os ícones das redes sociais */
+/* Social icons styles */
 .social-icons {
   display: flex;
   justify-content: space-between;
@@ -81,7 +52,7 @@ nav a:hover {
   margin-right: 10px;
 }
 
-/* Estilize a seção do banner principal */
+/* Hero section styles */
 .hero {
   background-image: url('path/to/your/image.jpg');
   background-size: cover;
@@ -106,25 +77,38 @@ nav a:hover {
   text-decoration: none;
 }
 
-/* Estilize a seção de eventos atuais */
+h1 {
+  font-family: 'Spectral', serif;
+  color: #CDAC60;
+  text-align: left;
+}
+
+h2 {
+  font-family: 'Spectral', serif;
+  color: #2A2F41;
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+}
+
 .current-events {
   background-color: #F2F2F2;
   padding: 20px;
 }
 
-/* Estilize a seção do clima */
 .weather {
   background-color: #F2F2F2;
   padding: 20px;
 }
 
-/* Estilize a seção de destaques */
 .spotlights {
   background-color: #F2F2F2;
   padding: 20px;
 }
 
-/* Estilize a seção de rodapé */
+/* Footer styles */
 footer {
   background-color: #2A2F41;
   color: #F2F5FF;
@@ -132,19 +116,47 @@ footer {
   text-align: center;
 }
 
-footer .contact-info, .development-info {
+footer .contact-info,
+.development-info {
   margin-bottom: 10px;
 }
 
-/* Media Queries */
-@media screen and (max-width: 768px) {
-  nav ul {
-    display: none;
-    /* Hide main nav on smaller screens */
+/* Mobile styles */
+@media screen and (max-width: 600px) {
+  #menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
   }
 
-  .hamburger-menu {
+  #menu::before {
+    content: "☰";
+    background-color: #CDAC60;
+  }
+
+  #menu.open::before {
+    content: "☰";
+  }
+
+  .navigation {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+  }
+
+  .navigation a {
+    display: none;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .open a {
     display: block;
-    /* Show hamburger menu button */
   }
 }

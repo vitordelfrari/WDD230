@@ -1,0 +1,28 @@
+/* Larger screen styles */
+@media screen and (min-width: 900px) {
+    nav ul {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    nav ul li {
+      flex: 1 1 100%;
+    }
+  
+    #menu {
+      display: none; /* hide hamburger button */
+    }
+  
+    .navigation {
+      flex-direction: row;
+    }
+  
+    .navigation a {
+      display: block;
+      flex: 1 1 100%;
+    }
+  
+    .stuff {
+      margin: 1rem auto;
+    }
+  }
