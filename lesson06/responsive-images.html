@@ -5,17 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Your Page Title</title>
-    <link rel="stylesheet" href="responsive-images.css">
+    <link rel="stylesheet" href="styles/responsive-images.css">
 </head>
 
 <body>
 
     <main>
-        <img style="width: 100vw" src="images/hero-large.webp" sizes="100vw" srcset="
-                images/hero-large.webp 1500w,
-                images/hero-medium.webp 1000w, 
-                images/hero-small.webp 500w
-                " />
+        <picture>
+            <source media="(max-width: 500px)" srcset="images/hero-small.webp">
+            <source media="(max-width: 1000px)" srcset="images/hero-medium.webp">
+            <img src="images/hero-large.webp" style="width: 1500px" alt="Hero Image">
+        </picture>
     </main>
+
 </body>
+
 </html>
