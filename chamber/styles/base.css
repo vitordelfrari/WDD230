@@ -54,15 +54,24 @@ nav a:hover {
 
 /* Hero section styles */
 .hero {
-  background-image: url('path/to/your/image.jpg');
-  background-size: cover;
   text-align: center;
   padding: 50px 0;
   color: #F2F5FF;
 }
 
-.hero h2 {
-  font-size: 2em;
+.hero-content {
+  max-width: 800px;
+  /* Adjust as needed */
+  margin: 0 auto;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 800px;
+  /* Adjust as needed */
+  height: auto;
+  display: block;
+  margin: 0 auto;
 }
 
 .hero .cta {
@@ -76,6 +85,12 @@ nav a:hover {
   color: #CDAC60;
   text-decoration: none;
 }
+
+.hero h2 {
+  font-size: 2em;
+  text-align: center;
+}
+
 
 h1 {
   font-family: 'Spectral', serif;
@@ -98,9 +113,18 @@ ul {
   padding: 20px;
 }
 
+/* CSS for wind chill value */
 .weather {
   background-color: #F2F2F2;
   padding: 20px;
+}
+
+.weather h2 {
+  color: #2A2F41;
+}
+
+.weather p {
+  margin-bottom: 10px;
 }
 
 .spotlights {
