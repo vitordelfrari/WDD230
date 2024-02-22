@@ -148,7 +148,8 @@ hr.solid {
     border: 0;
     max-width: 100%;
     border-radius: 10px;
-
+    width: 780px;
+    height: 450px;
 }
 
 footer {
@@ -214,5 +215,5 @@ footer {
 
     .open a {
         display: block;
-    }    
+    }
 }
