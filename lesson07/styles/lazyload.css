@@ -1,19 +1,21 @@
-body {
+h1 {
+    text-align: center;
+}
+
+main {
+    margin: 0 auto;
+    width: 400px;
     display: flex;
     flex-direction: column;
-    width: 500px;
-    margin: auto;
-    text-align: center;
-    background-color: rgb(249, 243, 238);
 }
 
-img.lazyload {
-    width: 400px;
-    height: auto;
-    animation: fadein 2s;
+img {
+    width: 100%;
+    background: black;
+    animation: fade 15s;
 }
 
-@keyframes fadein {
+@keyframes fade {
     from {
         opacity: 0;
     }

@@ -2,15 +2,39 @@
 <html>
 
 <head>
-    <link rel="stylesheet" type="text/css" href="styles/lazyload.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lazy Load</title>
+    <meta name="description" content="Description of Franca Chamber of Commerce website.">
+    <meta name="author" content="Your Name">
+    <link rel="stylesheet" href="styles/lazyload.css">
 </head>
 
 <body>
     <header>
-        <h1>Page Title</h1>
+        <h1>Lazy Load Images</h1>
     </header>
     <main>
-        <img class="lazyload" src="images/car1.webp" loading="lazy">
+        <picture>
+            <img class="lazyload" src="images/car1.webp" alt="Car 1" loading="lazy" width="400px" height="600px">
+        </picture>
+        <picture>
+            <img class="lazyload" src="images/car2.webp" alt="Car 2" loading="lazy" width="400px" height="600px">
+        </picture>
+        <picture>
+            <img class="lazyload" src="images/car3.webp" alt="Car 3" loading="lazy" width="400px" height="600px">
+        </picture>
+        <picture>
+            <img class="lazyload" src="images/car4.webp" alt="Car 4" loading="lazy" width="400px" height="600px">
+        </picture>
+        <picture>
+            <img class="lazyload" src="images/car5.webp" alt="Car 5" loading="lazy" width="400px" height="600px">
+        </picture>
+        <picture>
+            <img class="lazyload" src="images/car6.webp" alt="Car 6" loading="lazy" width="400px" height="600px">
+        </picture>
+
+
         <img class="lazyload" src="images/car2.webp" loading="lazy">
         <img class="lazyload" src="images/car3.webp" loading="lazy">
         <img class="lazyload" src="images/car4.webp" loading="lazy">
@@ -18,9 +42,7 @@
     </main>
     <footer>
         <p id="lastModified"></p>
-        <!-- Add more content as needed -->
     </footer>
-    <script src="scripts/lazyload.js"></script>
 </body>
 
 </html>
