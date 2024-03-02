@@ -16,10 +16,10 @@ modeButton.addEventListener("click", () => {
         modeButton.textContent = "🔆";
     } else {
         // Light mode
-        main.style.background = "#eee";
+        main.style.background = "#fff";
         main.style.color = "#000";
         mainSections.forEach(section => {
-            section.style.background = "#f2f2f2"; // Reset background color of each section
+            section.style.background = "#fff"; // Reset background color of each section
             section.style.color = "#000"; // Reset text color of each section
             const h2 = section.querySelector("h2");
             if (h2) h2.style.color = "#2A2F41"; // Reset text color of h2

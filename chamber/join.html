@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chamber of Commerce - Membership Application</title>
+  <meta name="description"
+    content="Apply for membership with the Franca Chamber of Commerce. Join us to unlock opportunities for your business.">
+  <meta name="author" content="Vitor Del Frari">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" media="(min-width: 768px)" href="styles/medium.css">
+  <link rel="stylesheet" media="(min-width: 1200px)" href="styles/larger.css">
+  <script src="scripts/darkmode.js" defer></script>
+  <script src="scripts/getdates.js" defer></script>
+  <script src="scripts/windchill.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Franca Chamber of Commerce</h1>
+    <button id="mode">🕶️</button>
+    <button id="menu"></button>
+    <nav class="navigation">
+      <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="#">MEMBERSHIP</a></li>
+        <li><a href="#">EVENTS</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="membership-container">
+    <section class="membership-form">
+      <h1>Membership Application</h1>
+      <form action="thanks.html" method="get">
+        <label for="first-name">First Name:</label>
+        <input type="text" id="first-name" name="first-name" required>
+
+        <label for="last-name">Last Name:</label>
+        <input type="text" id="last-name" name="last-name" required>
+
+        <label for="title">Title/Position:</label>
+        <input type="text" id="title" name="title" required pattern="[A-Za-z -]{7,}">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="example@example.com">
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" name="phone" required>
+
+        <label for="business-name">Business/Organization Name:</label>
+        <input type="text" id="business-name" name="business-name" required>
+
+        <label for="membership-level">Membership Level:</label>
+        <select id="membership-level" name="membership-level" required>
+          <option value="NP Membership">NP Membership (Non-Profit)</option>
+          <option value="Bronze Membership">Bronze Membership</option>
+          <option value="Silver Membership">Silver Membership</option>
+          <option value="Gold Membership">Gold Membership</option>
+        </select>
+
+        <label for="description">Business/Organization Description:</label>
+        <textarea id="description" name="description"></textarea>
+
+        <input type="hidden" id="form-submit-time" name="form-submit-time">
+
+        <input type="submit" value="Submit Application">
+      </form>
+    </section>
+
+    <aside class="membership-benefits">
+      <h1>Membership Benefits</h1>
+      <div class="benefits-list">
+        <div class="benefit">
+          <h3>NP Membership</h3>
+          <p>No fee, tailored benefits for non-profit organizations.</p>
+        </div>
+        <div class="benefit">
+          <h3>Bronze Membership</h3>
+          <p>Basic benefits package, event discounts.</p>
+        </div>
+        <div class="benefit">
+          <h3>Silver Membership</h3>
+          <p>Enhanced benefits package, advertising opportunities.</p>
+        </div>
+        <div class="benefit">
+          <h3>Gold Membership</h3>
+          <p>Premium benefits package, exclusive events, priority support.</p>
+        </div>
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <div class="contact-info">
+      <p>Contact Us: fcc@example.com | 123-456-7890</p>
+    </div>
+    <div class="development-info">
+      <p>© <span id="currentYear"></span> Developed by Vitor Del Frari for WDD 230 </p>
+      <p id="lastModified"></p>
+    </div>
+  </footer>
+</body>
+
+</html>
