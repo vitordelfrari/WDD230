@@ -1,0 +1,52 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    background-color: rgb(205, 231, 231);
+}
+
+header,
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    margin: 20px;
+}
+
+/* CSS Grid for responsiveness */
+#cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2px;
+}
+
+/* Styling for each prophet's card */
+#cards section {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+#cards img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+#cards h2 {
+    /* Adjust font size dynamically */
+    color: #333;
+    white-space: nowrap;
+    /* Prevent text from wrapping to a new line */
+    overflow: hidden;
+    /* Prevent text from flowing outside the box */
+}
