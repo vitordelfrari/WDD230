@@ -1,0 +1,20 @@
+{
+    "wardInformation": {
+    "familyName": "Del Frari",
+    "moveInDate": "2023-05-01",
+    "numberOfPeople": 2,
+    "visitedByBishopric": true,
+    "familyMembers": [
+      {
+        "name": "Vitor Del Frari",
+        "gender": "Male",
+        "birthdate": "2001-06-05"
+      },
+      {
+        "name": "Kathleen Del Frari",
+        "gender": "Female",
+        "birthdate": "2000-03-30"
+      }
+    ]
+    }
+  }
