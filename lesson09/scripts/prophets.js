@@ -14,7 +14,8 @@ const displayProphets = (prophets) => {
     prophets.forEach((prophet) => {
         let card = document.createElement('section');
         let fullName = document.createElement('h2');
-        let birthInfo = document.createElement('p'); // Paragraph element for birth info
+        let dateOfBirth = document.createElement('p');
+        let placeOfBirth = document.createElement('p');
         let portrait = document.createElement('img');
 
         // Full name and image setup
@@ -22,15 +23,17 @@ const displayProphets = (prophets) => {
         portrait.setAttribute('src', prophet.imageurl);
         portrait.setAttribute('alt', `Portrait of ${prophet.name} ${prophet.lastname}`);
         portrait.setAttribute('loading', 'lazy');
-        portrait.setAttribute('width', '200'); // Adjusted for better responsiveness
-        portrait.setAttribute('height', '300'); // Adjusted for better responsiveness
+        portrait.setAttribute('width', '200');
+        portrait.setAttribute('height', '300');
 
-        // Birth info setup
-        birthInfo.textContent = `Born: ${prophet.birthdate} in ${prophet.birthplace}`;
+        // Date and Place of Birth setup
+        dateOfBirth.textContent = `Date of Birth: ${prophet.birthdate}`;
+        placeOfBirth.textContent = `Place of Birth: ${prophet.birthplace}`;
 
         // Appending children
         card.appendChild(fullName);
-        card.appendChild(birthInfo); // Add birth info to the card
+        card.appendChild(dateOfBirth);
+        card.appendChild(placeOfBirth);
         card.appendChild(portrait);
         cards.appendChild(card);
     });

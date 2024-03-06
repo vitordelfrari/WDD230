@@ -8,7 +8,6 @@
     <meta name="author" content="Vitor Del Frari">
     <title>Vitor Del Frari - WDD 230 - Web Frontend Development</title>
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
     <meta name="description"
@@ -16,7 +15,8 @@
     <link rel="icon" href="images/favicon.ico">
     <meta property="og:title" content="Vitor Del Frari - WDD 230 - Web Frontend Development">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://jornaldafranca.com.br/storage/app/media/03.%20Cesar/Prefeitura%20de%20Franca/Fotos/DSC_0428.jpg">
+    <meta property="og:image"
+        content="https://jornaldafranca.com.br/storage/app/media/03.%20Cesar/Prefeitura%20de%20Franca/Fotos/DSC_0428.jpg">
     <meta property="og:url" content="https://vitordelfrari.github.io/wdd230/">
 </head>
 
@@ -51,33 +51,8 @@
         <h2>Main Content Area</h2>
         <section class="card">
             <h3>Learning Activities</h3>
-            <ul>
-                <li><strong>01:</strong><a href="lesson01/holygrail.html">Holy Layout</a><strong> |
-                    </strong><a href="lesson02/design.html">Design</a></li>
-
-                <li><strong>02:</strong><a href="lesson02/design-principles.html">Design Principles</a><strong> |
-                    </strong><a href="lesson01/media-query.html">Media Query</a></li>
-
-                <li><strong>03:</strong><a href="images/combinator_exercise.jpg">Combinators</a><strong> |
-                    </strong><a href="https://codepen.io/vitordelfrari/pen/XWGeayw">Responsive Menu</a><strong> |
-                    </strong><a href="https://codepen.io/vitordelfrari/pen/zYbdeVz">Pseudo Elements</a></li>
-
-                <li><strong>04:</strong><a href="https://codepen.io/vitordelfrari/pen/vYPdpbq">Pseudo-class</a></li>
-
-                <li><strong>05:</strong><a href="lesson05/bom.html">BOM</a></li>
-
-                <li><strong>06:</strong><a href="lesson06/images/landscape.webp">Landscape Image</a><strong> |
-                    </strong><a href="lesson06/responsive-images.html">Resposive Images</a></li>
-
-                <li><strong>07:</strong><a href="lesson07/lazyload.html">Lazy Loading</a><strong> |
-                    </strong><a href="lesson07/bom.html">BOM - API</a></li>
-
-                <li><strong>08:</strong><a href="lesson08/tablebuild.html">Table Build</a><strong> |
-                    </strong><a href="lesson08/Form-start/index.html">Form</a></li>
-
-                <li><strong>09:</strong><a href="lesson09/new-ward-members.json">Jason</a><strong> |
-                    </strong><a href="lesson09/prophets.html"></a></li>
-
+            <ul id="linksList">
+                <!-- Dynamic content will be loaded here by JavaScript -->
             </ul>
         </section>
 
@@ -98,6 +73,7 @@
     <footer>
         <p>&copy; <span id="currentYear"></span> Vitor Del Frari - WDD 230 Course Assignment Portal | SP - BRAZIL </p>
         <p id="lastModified"></p>
+        <script src="scripts/links.js"></script>
         <script src="scripts/getdates.js"></script>
     </footer>
 </body>
