@@ -16,11 +16,11 @@ function displayLinks(lessons) {
     container.innerHTML = ''; // Clear existing content
 
     lessons.forEach(lesson => {
-        lesson.activities.forEach(activity => {
-            const li = document.createElement('li');
-            li.innerHTML = `<strong>${lesson.lesson}:</strong> <a href="${activity.url}">${activity.title}</a>`;
-            container.appendChild(li);
-        });
+        const lessonTitle = lesson.lesson;
+        const activities = lesson.activities.map(activity => `<a href="${activity.url}">${activity.title}</a>`).join(' | ');
+        const li = document.createElement('li');
+        li.innerHTML = `${lessonTitle}: ${activities}`;
+        container.appendChild(li);
     });
 }
 
