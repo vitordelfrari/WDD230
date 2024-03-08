@@ -1,0 +1,58 @@
+{
+    "members": [
+        {
+            "name": "Tech Innovations Inc.",
+            "address": "123 Tech Avenue, Innovation City, 45678",
+            "phone": "123-456-7890",
+            "website": "https://www.techinnovationsinc.com",
+            "image": "https://logowik.com/content/uploads/images/tii-technology-innovation-institute6349.logowik.com.webp",
+            "membershipLevel": "Gold",
+            "description": "Leading provider of innovative tech solutions."
+        },
+        {
+            "name": "Eco Solutions",
+            "address": "789 Green Lane, Eco City, 12345",
+            "phone": "987-654-3210",
+            "website": "https://www.ecosolutions.com",
+            "image": "data:image/jpeg;base64,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",
+            "membershipLevel": "Silver",
+            "description": "Sustainable and eco-friendly product manufacturer."
+        },
+        {
+            "name": "Future Tech Ltd.",
+            "address": "456 Future Street, Tech Town, 78901",
+            "phone": "234-567-8901",
+            "website": "https://www.futuretechltd.com",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKUQLc8Nm-dNtDFI2I24XdVY4Tx99B0g1m1orncLinbDBExUZG5gwtI-jiaT2SHj5wMgU&usqp=CAU",
+            "membershipLevel": "Silver",
+            "description": "Pioneers in futuristic technology."
+        },
+        {
+            "name": "Green Energy Corp.",
+            "address": "321 Green Plaza, Eco Village, 98765",
+            "phone": "876-543-2109",
+            "website": "https://www.greenenergycorp.com",
+            "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPfQkhGBPIUXWN19fJfcH8MlFA7IvCJrU2wHuYcYITFWfpHRbUorH6cmL-4OvHLobQXlI&usqp=CAU",
+            "membershipLevel": "Gold",
+            "description": "Leaders in renewable energy solutions."
+        },
+        {
+            "name": "AI Innovations",
+            "address": "654 AI Boulevard, Innovation Park, 12398",
+            "phone": "345-678-9012",
+            "website": "https://www.aiinnovations.com",
+            "image": "https://media.licdn.com/dms/image/C4D0BAQFi6yUbo8lomw/company-logo_200_200/0/1630552871330/ai_on_innovations_inc_logo?e=2147483647&v=beta&t=uf6YbDIBqxkyz8Z0EG8ryP76Ty0cBUghcY76zpuwCpc",
+            "membershipLevel": "Platinum",
+            "description": "Cutting-edge AI technology solutions."
+        },
+        {
+            "name": "Eco Friendly Products",
+            "address": "987 Eco Street, Green City, 45632",
+            "phone": "765-432-1098",
+            "website": "https://www.ecofriendlyproducts.com",
+            "image": "https://static.vecteezy.com/system/resources/thumbnails/009/019/420/small_2x/eco-friendly-healthy-natural-product-label-logo-design-vector.jpg",
+            "membershipLevel": "Silver",
+            "description": "Promoting sustainability with eco-friendly products."
+        }
+    ]
+}

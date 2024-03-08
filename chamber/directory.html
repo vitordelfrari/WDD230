@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chamber of Commerce</title>
+  <meta name="description"
+    content="Welcome to our Chamber of Commerce website. Join us to unlock opportunities for your business.">
+  <meta name="author" content="Vitor Del Frari">
+
+  <!-- Favicon -->
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- Social Media Meta -->
+  <meta property="og:title" content="Franca Chamber of Commerce">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://vitordelfrari.github.io/wdd230/chamber/images/franca.jpg">
+  <meta property="og:url" content="https://vitordelfrari.github.io/wdd230/chamber/">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" media="(min-width: 768px)" href="styles/medium.css">
+  <link rel="stylesheet" media="(min-width: 1200px)" href="styles/larger.css">
+
+  <script src="scripts/darkmode.js" defer></script>
+  <script src="scripts/getdates.js" defer></script>
+  <script src="scripts/windchill.js" defer></script>
+  <script src="scripts/mambers.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Franca Chamber of Commerce</h1>
+    <button id="mode">🕶️</button>
+    <button id="menu"></button>
+    <nav class="navigation">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="#">ABOUT</a></li>
+        <li><a href="join.html">MEMBERSHIP</a></li>
+        <li><a href="discover.html">EVENTS</a></li>
+        <li><a href="#">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div id="viewToggle">
+      <button id="gridViewButton">Grid View</button>
+      <button id="listViewButton">List View</button>
+    </div>
+
+    <div id="membersContainer">
+    </div>
+  </main>
+
+  <footer>
+    <div class="contact-info">
+      <p>Contact Us: fcc@example.com | 123-456-7890</p>
+    </div>
+    <div class="development-info">
+      <p>© <span id="currentYear"></span> Developed by Vitor Del Frari for WDD 230 </p>
+      <p id="lastModified"></p>
+    </div>
+  </footer>
+</body>
+
+</html>
