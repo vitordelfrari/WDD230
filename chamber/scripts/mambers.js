@@ -31,14 +31,18 @@ function toggleView(view) {
     const members = container.querySelectorAll('.member-card, .member-list-item');
 
     if (view === 'list') {
-        container.classList.add('flex-column');
+        container.classList.remove('grid-view');
+        container.classList.add('list-view');
         members.forEach(member => {
-            member.className = 'member-list-item';
+            member.classList.remove('member-card');
+            member.classList.add('member-list-item');
         });
     } else { // Default to grid
-        container.classList.remove('flex-column');
+        container.classList.remove('list-view');
+        container.classList.add('grid-view');
         members.forEach(member => {
-            member.className = 'member-card';
+            member.classList.remove('member-list-item');
+            member.classList.add('member-card');
         });
     }
 }
