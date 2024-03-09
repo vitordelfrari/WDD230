@@ -20,7 +20,7 @@ function displayMembers(members) {
             <p>${member.address}</p>
             <p>${member.phone}</p>
             <a href="${member.website}" target="_blank">${member.website}</a>
-            <p>${member.description}</p>
+            <p>${member.membershipLevel}</p>
         `;
         container.appendChild(div);
     });

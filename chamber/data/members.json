@@ -53,6 +53,15 @@
             "image": "https://static.vecteezy.com/system/resources/thumbnails/009/019/420/small_2x/eco-friendly-healthy-natural-product-label-logo-design-vector.jpg",
             "membershipLevel": "Silver",
             "description": "Promoting sustainability with eco-friendly products."
+        },
+        {
+            "name": "Tech Pioneers Inc.",
+            "address": "321 Pioneer Avenue, Tech City, 78954",
+            "phone": "456-789-0123",
+            "website": "https://www.techpioneersinc.com",
+            "image": "https://media.licdn.com/dms/image/C4D0BAQGXvtU2xzxfvA/company-logo_200_200/0/1630564031620?e=2147483647&v=beta&t=8mgNl_A4QUhEjdPSzcloWam9bT00xGSTQXZOvM0pBmg",
+            "membershipLevel": "Gold",
+            "description": "Pioneering the future of technology."
         }
     ]
 }

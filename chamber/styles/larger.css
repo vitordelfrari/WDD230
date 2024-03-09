@@ -76,14 +76,17 @@
 
   #membersContainer.list {
     display: flex;
+    /* Make it a flex container */
     flex-direction: column;
   }
 
   .member-list-item {
     display: grid;
-    text-align: justify;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin-right: 30px;
-    padding: 0.25rem;
+    text-align: left;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-right: 0;
+    padding: 0.5rem;
+    /* Increased padding for better spacing */
   }
 }
