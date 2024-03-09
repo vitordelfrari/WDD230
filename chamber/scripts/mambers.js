@@ -28,21 +28,21 @@ function displayMembers(members) {
 
 function toggleView(view) {
     const container = document.getElementById('membersContainer');
-    const members = container.querySelectorAll('.member-card, .member-list-item');
+    const members = container.children;
 
     if (view === 'list') {
-        container.classList.remove('grid-view');
-        container.classList.add('list-view');
-        members.forEach(member => {
-            member.classList.remove('member-card');
-            member.classList.add('member-list-item');
-        });
+        container.classList.remove('grid');
+        container.classList.add('list');
+        for (let i = 0; i < members.length; i++) {
+            members[i].classList.remove('member-card');
+            members[i].classList.add('member-list-item');
+        }
     } else { // Default to grid
-        container.classList.remove('list-view');
-        container.classList.add('grid-view');
-        members.forEach(member => {
-            member.classList.remove('member-list-item');
-            member.classList.add('member-card');
-        });
+        container.classList.remove('list');
+        container.classList.add('grid');
+        for (let i = 0; i < members.length; i++) {
+            members[i].classList.remove('member-list-item');
+            members[i].classList.add('member-card');
+        }
     }
 }

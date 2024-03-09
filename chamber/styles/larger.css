@@ -73,4 +73,17 @@
     margin: 20px auto;
     max-width: 1200px;
   }
+
+  #membersContainer.list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .member-list-item {
+    display: grid;
+    text-align: justify;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-right: 30px;
+    padding: 0.25rem;
+  }
 }
