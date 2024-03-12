@@ -117,7 +117,7 @@
             "lesson": "10",
             "activities": [
                 {
-                    "url":"lesson10/scripts/weather.js" ,
+                    "url":"lesson10/weather.html" ,
                     "title": "Weather"
                 }
             ]
