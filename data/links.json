@@ -112,6 +112,15 @@
                     "title": "Prophets Jason"
                 }
             ]
+        },
+        {
+            "lesson": "10",
+            "activities": [
+                {
+                    "url":"lesson10/scripts/weather.js" ,
+                    "title": "Weather"
+                }
+            ]
         }
     ]
 }
