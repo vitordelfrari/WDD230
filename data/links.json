@@ -114,13 +114,13 @@
             ]
         },
         {
-            "lesson":"10",
-            "links": [
+            "lesson": "10",
+            "activities": [
                 {
                     "url": "lesson10/weather.html",
                     "title": "Weather"
                 }
             ]
-        }
+        }        
     ]
 }
