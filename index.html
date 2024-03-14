@@ -56,8 +56,14 @@
 
         <section class="card">
             <h3>Information</h3>
-            <p>Current Weather: [Weather Placeholder]</p>
-            <p>Number of Visits: <span id="visitCount"></span></p>
+            <section id="weather">
+                <h4>Current Weather: <span id="current-temp"></span></h4>
+                <figure>
+                    <figcaption></figcaption>
+                    <img id="weather-icon" src="" alt="">
+                </figure>
+            </section>
+            <h4>Number of Visits: <span id="visitCount"></span></h4>
         </section>
     </main>
 
@@ -73,6 +79,7 @@
         <p id="lastModified"></p>
         <script src="scripts/links.js"></script>
         <script src="scripts/getdates.js"></script>
+        <script src="scripts/weather.js"></script>
     </footer>
 </body>
 
