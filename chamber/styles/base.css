@@ -177,6 +177,10 @@ ul {
   margin-bottom: 5px;
 }
 
+#banner {
+  background-color: rgb(178, 215, 255);
+  border: 1px solid #000000;
+}
 
 .spotlights {
   padding: 20px;
@@ -202,6 +206,7 @@ footer .contact-info,
   text-align: center;
   margin: 10px;
   max-width: 600px;
+  grid-column: 1 / 2;
 }
 
 .membership-form form {
@@ -248,10 +253,6 @@ footer .contact-info,
   margin: 20px;
   margin-right: 30px;
   max-width: 1200px;
-}
-
-.membership-form {
-  grid-column: 1 / 2;
 }
 
 .membership-benefits {

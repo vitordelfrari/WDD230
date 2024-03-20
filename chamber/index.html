@@ -27,6 +27,8 @@
   <script src="scripts/darkmode.js" defer></script>
   <script src="scripts/getdates.js" defer></script>
   <script src="scripts/weather.js" defer></script>
+  <script src="scripts/spotlights.js" defer></script>
+
 </head>
 
 <body>
@@ -70,18 +72,17 @@
         <img id="weather-icon" src="placeholder_image_url" alt="">
       </figure>
       <p>Three Day Temperature Forecast: <span id="forecast-temp"></span></p>
-      <div id="banner" style="display: none;">
-        <p>Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</p>
+      <div id="banner" style="display: flex; align-items: center;">
         <button class="close">❌</button>
+        <p style="margin-left: 10px;">Join us for the Chamber of Commerce meet and greet on Wednesday at 7:00 p.m.</p>
       </div>
     </section>
 
-
     <section class="spotlights">
-      <!-- Company spotlights content goes here -->
       <h2>Member Spotlights</h2>
-      <p>Discover featured businesses in our community.</p>
+      <div id="spotlightsContainer"></div>
     </section>
+
   </main>
 
   <footer>
