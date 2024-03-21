@@ -36,6 +36,12 @@ header {
   grid-gap: 10px;
 }
 
+.container h1 {
+  color: #2A2F41;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
 .sidebar {
   grid-column: 1;
   margin: 10px;
@@ -209,6 +215,10 @@ footer .contact-info,
   grid-column: 1 / 2;
 }
 
+.membership-form h1 {
+  color: #2A2F41;
+}
+
 .membership-form form {
   display: grid;
   grid-template-columns: 1fr;
@@ -314,6 +324,12 @@ footer .contact-info,
 #viewToggle {
   text-align: center;
   margin: 20px;
+}
+
+#viewToggle h1 {
+  color: #2A2F41;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 #gridViewButton,

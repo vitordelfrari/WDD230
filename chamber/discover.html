@@ -24,7 +24,6 @@
   <link rel="stylesheet" media="(min-width: 768px)" href="styles/medium.css">
   <link rel="stylesheet" media="(min-width: 1200px)" href="styles/larger.css">
 
-  <script src="scripts/darkmode.js" defer></script>
   <script src="scripts/getdates.js" defer></script>
   <script src="scripts/windchill.js" defer></script>
   <script src="scripts/local_storage.js" defer></script>
@@ -33,7 +32,6 @@
 <body>
   <header>
     <h1>Franca Chamber of Commerce</h1>
-    <button id="mode">🕶️</button>
     <button id="menu"></button>
     <nav class="navigation">
       <ul>
@@ -49,7 +47,9 @@
     <div class="container">
       <div class="sidebar">
         <h2>About Franca</h2>
-        <p>Franca is a city located in the state of São Paulo, Brazil. With a population of over 300,000 people, Franca is known for its strong economy, particularly in the shoe industry. The city is often referred to as the "Capital of Shoes" due to its significant production and export of footwear.</p>
+        <p>Franca is a city located in the state of São Paulo, Brazil. With a population of over 300,000 people, Franca
+          is known for its strong economy, particularly in the shoe industry. The city is often referred to as the
+          "Capital of Shoes" due to its significant production and export of footwear.</p>
         <div class="divider"></div>
         <h3>Key Statistics</h3>
         <ul>
@@ -73,38 +73,56 @@
         <p>Center Address: 123 Main Street, Franca, São Paulo, Brazil</p>
         <p id="visitMessage"></p>
       </div>
-  
+
       <div class="main-content">
+        <h1>Our city</h1>
         <h2>Local Photos of Interest</h2>
         <div class="image-gallery">
           <figure>
             <img src="images/franca_shopping.webp" alt="Franca Mall" loading="lazy">
-            <figcaption>Franca Mall where great stores are located and different expositions are held throughout the year.</figcaption>
+            <figcaption>Franca Mall where great stores are located and different expositions are held throughout the
+              year.</figcaption>
           </figure>
           <div class="divider"></div>
           <figure>
             <img src="images/cience_museum.webp" alt="Museum of Science" loading="lazy">
-            <figcaption>The Museum of Science is a hub for education and scientific exploration, offering interactive exhibitions in Physics, Chemistry, Biology, and Mathematics. Open to both students and the wider community, guided by knowledgeable educators for an immersive learning experience.</figcaption>
+            <figcaption>The Museum of Science is a hub for education and scientific exploration, offering interactive
+              exhibitions in Physics, Chemistry, Biology, and Mathematics. Open to both students and the wider
+              community, guided by knowledgeable educators for an immersive learning experience.</figcaption>
           </figure>
           <div class="divider"></div>
           <figure>
             <img src="images/exposition_park.webp" alt="Exposition Park" loading="lazy">
-            <figcaption>Step into a world of discovery at our cultural park, where you'll find a captivating array of exhibits featuring everything from wildlife to handcrafted treasures. Explore animal habitats, admire local craftsmanship, and immerse yourself in the rich tapestry of cultural heritage on display. A delightful journey awaits, blending nature, art, and tradition for an enriching experience for all ages.</figcaption>
+            <figcaption>Step into a world of discovery at our cultural park, where you'll find a captivating array of
+              exhibits featuring everything from wildlife to handcrafted treasures. Explore animal habitats, admire
+              local craftsmanship, and immerse yourself in the rich tapestry of cultural heritage on display. A
+              delightful journey awaits, blending nature, art, and tradition for an enriching experience for all ages.
+            </figcaption>
           </figure>
           <div class="divider"></div>
           <figure>
             <img src="images/little_farm.webp" alt="Fazendinha Farm" loading="lazy">
-            <figcaption>Mini Farm Experience - Discover the charm of rural life within the city at our mini farm. Encounter a delightful array of typical farm animals alongside exotic species. Indulge in authentic Minas Gerais and regional cuisine at our rustic restaurant. A family-friendly atmosphere invites you to immerse yourself in the farm's ambiance, creating cherished memories in the heart of the city.</figcaption>
+            <figcaption>Mini Farm Experience - Discover the charm of rural life within the city at our mini farm.
+              Encounter a delightful array of typical farm animals alongside exotic species. Indulge in authentic Minas
+              Gerais and regional cuisine at our rustic restaurant. A family-friendly atmosphere invites you to immerse
+              yourself in the farm's ambiance, creating cherished memories in the heart of the city.</figcaption>
           </figure>
           <div class="divider"></div>
           <figure>
             <img src="images/matriz_chuch.webp" alt="Church da Sé" loading="lazy">
-            <figcaption>Igreja Matriz - Discover the rich history of our church located in Praça Nossa Senhora da Conceição. Constructed in the late 19th century, its inauguration took place in 1926, replacing the city's original church built in 1809. Undergoing two renovations in 1980 and 2005, it was elevated to the Cathedral of the Diocese of Franca in 1971. The church's eclectic architecture blends Gothic and Neoclassical elements, adding to its timeless allure.</figcaption>
+            <figcaption>Igreja Matriz - Discover the rich history of our church located in Praça Nossa Senhora da
+              Conceição. Constructed in the late 19th century, its inauguration took place in 1926, replacing the city's
+              original church built in 1809. Undergoing two renovations in 1980 and 2005, it was elevated to the
+              Cathedral of the Diocese of Franca in 1971. The church's eclectic architecture blends Gothic and
+              Neoclassical elements, adding to its timeless allure.</figcaption>
           </figure>
           <div class="divider"></div>
           <figure>
             <img src="images/stars_observatory.webp" alt="Observatory" loading="lazy">
-            <figcaption>Dr. Thomaz Novelino Municipal Astronomical Observatory - Explore the wonders of science through engaging activities, lectures, and tailored programs for all ages. Experience telescope-assisted stargazing sessions, identifying constellations, planets, and more. An immersive blend of education and fun awaits.</figcaption>
+            <figcaption>Dr. Thomaz Novelino Municipal Astronomical Observatory - Explore the wonders of science through
+              engaging activities, lectures, and tailored programs for all ages. Experience telescope-assisted
+              stargazing sessions, identifying constellations, planets, and more. An immersive blend of education and
+              fun awaits.</figcaption>
           </figure>
         </div>
       </div>
