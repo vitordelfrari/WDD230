@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!-- head section with meta data -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scoots</title>
+    <meta name="description" content="Welcome to Scoots company.">
+    <meta name="author" content="Vitor Del Frari">
+    <meta name="keywords" content="Scoots, rentals, reservations, tours, contact">
+
+    <link rel="icon" href="images/ScootsLogo.ico">
+
+    <meta property="og:title" content="Scoots">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://vitordelfrari.github.io/wdd230/FinalProject/">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link href="styles/large.css" rel="stylesheet">
+    <link href="styles/medium.css" rel="stylesheet">
+    <link href="styles/base.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico">
+</head>
+
+<body>
+    <!-- header section -->
+    <header class="top-nav">
+        <img id="logo" src="images/ScootsLogo.png" alt="Scoots Company Logo">
+
+        <!-- nav links -->
+        <nav class="navigation">
+            <ul>
+                <li><a class="active" href="/scoots/index.html">Home</a></li>
+                <li><a href="/Scoots/rentals.html">Rentals</a></li>
+                <li><a href="/Scoots/reservations.html">Reservations</a></li>
+                <li><a href="/Scoots/contactUs.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- hamberger button -->
+        <button id="menu" title="Hamburger Menu"></button>
+    </header>
+
+    <div id="hero">
+        <!-- hero scooter image -->
+        <div id="hero-box">
+            <picture>
+                <img id="hero-img" src="images/home.webp" alt="Scooters">
+            </picture>
+        </div>
+        <section>
+            <h1 class="home-motto">Scoot into Adventure <br> Explore the World in Style
+        </section>
+    </div>
+
+    <div class="rentals">
+        <h2>Have a look at our oprions and reserve now!</h2>
+    </div>
+
+    <main>
+        <section class="homeInfoSection">
+            <div class="card">
+                <img class="infoImg" src="images/JEEP.webp" alt="jeep image">
+                <div class="container">
+                    <div class="content">
+                        <h3><b>JEEPS</b></h3>
+                        <p>4-door Jeep Wrangler manual with A/C 5 people max</p>
+                        <p>2-door Jeep Wrangler open air manual 4 people max</p>
+                    </div>
+                    <a href="/scoots/reservations.html" class="button">MAKE A RESERVATION</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="infoImg" src="images/Scooter.webp" alt="motor scooter">
+                <div class="container">
+                    <div class="content">
+                        <h3><b>MOTOR SCOOTERS</b></h3>
+                        <p>Honda Metropolitan (49cc) 1 person</p>
+                        <p>Honda Dio (110cc) 2 person</p>
+                        <p>Honda PCS150 (149cc) 2 person</p>
+                    </div>
+                    <a href="/scoots/reservations.html" class="button">MAKE A RESERVATION</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <img class="infoImg" src="images/ATV.webp" alt="ATV image">
+                <div class="container">
+                    <div class="content">
+                        <h3><b>ATV</b></h3>
+                        <p>Honda Pioneer 1000 - 4 person</p>
+                    </div>
+                    <a href="/scoots/reservations.html" class="button">MAKE A RESERVATION</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="weatherSection">
+            <div class="weatherSummary">
+                <h4>Today's Weather</h4>
+                <p>Temp: <span id="currentTemp"></span>°F</p>
+                <p>Condition: <span id="condition"></span></p>
+                <p>Humidity: <span id="humidity"></span>%</p>
+            </div>
+
+            <div class="weatherSummary">
+                <h4>Weather in 5 Days</h4>
+                <p>Temp: <span id="forecastTemp"></span>°F</p>
+                <p>Condition: <span id="forecastCondition"></span></p>
+                <p>Humidity: <span id="forecastHumidity"></span>%</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div id="company-info">
+            <h3>Scoots Rentals</h3>
+            <p>rentals@scoots.com</p>
+            <p>Phone: +12 345 678 9876</p>
+            <div id="social-media">
+                <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.webp" alt="Facebook"></a>
+                <a href="https://youtube.com/" target="_blank"><img src="images/Youtube.webp" alt="Twitter"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="images/instagram.webp"
+                        alt="Instagram"></a>
+            </div>
+        </div>
+
+        <div id="developer">
+            <p>&copy;2024</p>
+            <p>Vitor Del Frari</p>
+            <p>Last Modification: <span id="lastModified"></span></p>
+            <a href="resources.html" target="_blank">Attributions</a>
+        </div>
+    </footer>
+
+    <!-- scripts -->
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/weather.js"></script>
+</body>
+
+</html>
